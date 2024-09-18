@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-bar {
+  background-color: deeppink;
+  padding: 10px 0;
+}
+
+.top-bar__social-links {
+  display: flex;
+  gap: 16px;
+}
+
+.top-bar__social-links > li {
+  list-style: none;
+}
+
+.top-bar__social-links > li > a {
+  color: white;
+}
