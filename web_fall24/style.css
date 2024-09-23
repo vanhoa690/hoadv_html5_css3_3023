@@ -34,10 +34,7 @@ ul {
   gap: 20px;
 }
 
-.top-bar__social-links > li > a > i {
-  color: white;
-}
-
+.top-bar__social-links > li > a > i,
 .top-bar__links {
   color: white;
 }
