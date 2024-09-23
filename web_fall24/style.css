@@ -16,7 +16,7 @@ ul {
   list-style-type: none;
 }
 .container {
-  max-width: 1600px;
+  max-width: 1000px;
   width: 100%;
   margin: auto;
 }
@@ -37,4 +37,114 @@ ul {
 .top-bar__social-links > li > a > i,
 .top-bar__links {
   color: white;
+}
+
+/* Top Nav */
+.top-nav {
+  padding: 4px 0;
+}
+.top-nav .row {
+  align-items: center;
+}
+.top-nav__menu {
+  display: flex;
+  gap: 20px;
+}
+.top-nav__menu .active {
+  font-weight: 700;
+}
+
+.top-nav__search {
+  background-color: deeppink;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+/* About */
+.about {
+  padding: 30px 0;
+}
+.about .row {
+  display: flex;
+  gap: 30px;
+}
+.about .col {
+  min-width: 50%;
+}
+.about__thumbnail {
+  max-width: 90%;
+}
+.about__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  gap: 40px;
+}
+.about__title {
+  font-size: 40px;
+}
+.about__btn {
+  background-color: deeppink;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 20px 30px;
+  border-radius: 10px;
+  max-width: max-content;
+}
+/* Hero */
+.hero {
+  background-image: url("images/page-top-bg.jpg");
+  height: 200px;
+}
+
+.container-fluid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.hero__title {
+  color: white;
+  background-color: deeppink;
+  padding: 4px 10px;
+  font-size: 64px;
+}
+
+/* Facts */
+.facts {
+  background-color: aliceblue;
+  padding: 30px 0;
+}
+.fact-item {
+  text-align: center;
+}
+.fact-item__big-number {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.fact-item__name {
+  font-size: 14px;
+}
+
+/* Footer */
+.app-footer {
+  background-image: url("images/footer-bg.jpg");
+  padding: 40px 0;
+}
+.app-footer__menu {
+  display: flex;
+  gap: 30px;
+}
+
+.app-footer__menu .active {
+  color: deeppink;
+  font-weight: bold;
+}
+
+.copyright {
+  padding-top: 20px;
 }
