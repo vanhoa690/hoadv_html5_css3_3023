@@ -1,0 +1,18 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+li {
+  list-style: none;
+}
+
+ul {
+  background-color: deeppink;
+  color: white;
+  padding: 20px 0;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
