@@ -36,6 +36,30 @@ a {
   list-style: none;
 }
 
-.top-bar__social-links > li > a {
+.top-bar__social-links > li > a,
+.col span {
   color: white;
+}
+
+/* top nav */
+li {
+  list-style: none;
+}
+.top-nav {
+  padding: 20px 0;
+}
+.top-nav .row {
+  display: flex;
+  align-items: center;
+}
+.top-nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+.top-nav i {
+  background-color: deeppink;
+  color: white;
+  padding: 8px 6px;
+  border-radius: 4px;
 }
