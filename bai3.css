@@ -16,3 +16,12 @@ ul {
   align-items: center;
   gap: 20px;
 }
+
+.footer {
+  background-color: gray;
+  /* padding: 50px 0; */
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
