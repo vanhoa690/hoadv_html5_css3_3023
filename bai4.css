@@ -1,3 +1,8 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
 .item-image {
   width: 200px;
   height: 200px;
@@ -38,4 +43,41 @@
 .container {
   max-width: 1000px;
   margin: auto;
+}
+
+.hero-img {
+  width: 300px;
+}
+
+.hero {
+  /* background-image: url("image/img1.jpg"); */
+  background-color: #b8cf29;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.hero-col {
+  color: white;
+}
+
+.text-top {
+  font-size: 22px;
+}
+
+.text-desc {
+  font-size: 20px;
+}
+
+.hero-title {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.hero-banner {
+  max-width: 100%;
 }
