@@ -1,0 +1,41 @@
+.item-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid aqua;
+}
+.item-row {
+  display: flex;
+  gap: 10px;
+  border: 2px solid orange;
+  padding: 10px;
+  padding-bottom: 30px;
+}
+
+.item-desc {
+  font-size: 20px;
+  color: gray;
+}
+
+.services-col {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.services-form {
+  width: 500px;
+  height: 500px;
+  border: 2px solid orange;
+}
+
+.services-row {
+  display: flex;
+  gap: 40px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+}
