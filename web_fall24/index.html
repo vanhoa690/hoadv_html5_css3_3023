@@ -1,131 +1,83 @@
-<!-- shift 1 -->
-<!-- extension: auto close tag, auto complete tag, auto rename tag, html css support , live server, prettier-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>HTML5 - CSS3</title>
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
-
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
-      <section class="top-bar">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <!-- ul.class>li*6>a>i.fa -->
-              <ul class="top-bar__social-links">
-                <li>
-                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                </li>
-                <li>
-                  <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                </li>
+      <div class="container">
+        <div class="row top-bar">
+          <div class="col">
+            <nav>
+              <ul>
+                <li><a href="#" class="active">Trang chu</a></li>
+                <li><a href="#">Trang chu</a></li>
+                <li><a href="#">Trang chu</a></li>
+                <li><a href="#">Trang chu</a></li>
+                <li><a href="#">Trang chu</a></li>
               </ul>
-            </div>
-            <div class="col">
-              <div class="top-bar__links">
-                <a href="#">Register</a>
-                <span>/</span>
-                <a href="#">Login</a>
-              </div>
-            </div>
+            </nav>
+          </div>
+          <div class="col">
+            <form>
+              <input type="text" required class="input-search" />
+              <button type="submit" class="btn-search">Tim kiem</button>
+            </form>
           </div>
         </div>
-      </section>
-      <nav class="top-nav">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <img src="images/logo.svg" alt="" class="top-nav__logo" />
-            </div>
-            <div class="col">
-              <ul class="top-nav__menu">
-                <li><a href="#"></a>Home</li>
-                <li class="active"><a href="#"></a>About</li>
-                <li><a href="#"></a>Home</li>
-                <li><a href="#"></a>Home</li>
-                <li><a href="#"></a>Home</li>
-              </ul>
-            </div>
-            <div class="col">
-              <div class="top-nav__search">
-                <i class="fa-solid fa-magnifying-glass"></i>
-              </div>
-            </div>
-          </div>
+        <div class="row logo">
+          <canvas id="canvas" width="400" height="100"></canvas>
         </div>
-      </nav>
+      </div>
     </header>
     <main>
       <section class="hero">
-        <div class="container-fluid">
-          <h1 class="hero__title">About Us</h1>
+        <div class="container">
+          <div class="hero-banner"></div>
         </div>
       </section>
-      <section class="about">
+      <section class="content">
         <div class="container">
+          <h2 class="content-title">Uu dai danh rieng cho ban</h2>
           <div class="row">
-            <div class="col">
-              <div class="about__content">
-                <h1 class="about__title">About our great team</h1>
-                <p class="about__desc">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut,
-                  maxime ipsa provident, reiciendis veniam mollitia dolores
-                  consequuntur pariatur quidem hic porro eius, voluptates
-                  accusantium qui tempore sint possimus sit autem.
-                </p>
-                <button class="about__btn">Read More</button>
+            <div class="product-card">
+              <img src="./image/anh_1.png" alt="" class="product-image" />
+              <p class="product-name">Freezz Tra Xanh</p>
+              <div class="product-price">
+                <span class="price-sell">25.000d</span>
+                <span class="price-origin">35.000d</span>
               </div>
             </div>
-            <div class="col">
-              <img src="images/about.jpg" alt="" class="about__thumbnail" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="facts">
-        <div class="container">
-          <div class="row">
-            <div class="col-3">
-              <div class="fact-item">
-                <img src="images/1.png" alt="" class="fact-item__image" />
-                <p class="fact-item__big-number">1287</p>
-                <p class="fact-item__name">Peoples</p>
+            <div class="product-card">
+              <img src="./image/anh_4.png" alt="" class="product-image" />
+              <a href="#" class="product-link">
+                <p class="product-name">Freezz Tra Xanh</p>
+              </a>
+
+              <div class="product-price">
+                <span class="price-sell">25.000d</span>
+                <span class="price-origin">35.000d</span>
               </div>
             </div>
-            <div class="col-3">
-              <div class="fact-item">
-                <img src="images/2.png" alt="" class="fact-item__image" />
-                <p class="fact-item__big-number">1287</p>
-                <p class="fact-item__name">Peoples</p>
+            <div class="product-card">
+              <img src="./image/anh_2.png" alt="" class="product-image" />
+              <a href="#" class="product-link">
+                <p class="product-name">Freezz Tra Xanh</p>
+              </a>
+              <div class="product-price">
+                <span class="price-sell">25.000d</span>
+                <span class="price-origin">35.000d</span>
               </div>
             </div>
-            <div class="col-3">
-              <div class="fact-item">
-                <img src="images/3.png" alt="" class="fact-item__image" />
-                <p class="fact-item__big-number">1287</p>
-                <p class="fact-item__name">Peoples</p>
-              </div>
-            </div>
-            <div class="col-3">
-              <div class="fact-item">
-                <img src="images/4.png" alt="" class="fact-item__image" />
-                <p class="fact-item__big-number">1287</p>
-                <p class="fact-item__name">Peoples</p>
+            <div class="product-card">
+              <img src="./image/anh_3.png" alt="" class="product-image" />
+              <p class="product-name">Freezz Tra Xanh</p>
+              <div class="product-price">
+                <span class="price-sell">25.000d</span>
+                <span class="price-origin">35.000d</span>
               </div>
             </div>
           </div>
@@ -133,27 +85,25 @@
       </section>
     </main>
     <footer>
-      <section class="app-footer">
-        <div class="container">
-          <div class="row">
-            <div class="col">
-              <div class="app-footer__logo-wrapper">
-                <img src="images/logo.svg" alt="" class="app-footer__logo" />
-              </div>
-            </div>
-            <div class="col">
-              <ul class="app-footer__menu">
-                <li><a href="#"></a>Home</li>
-                <li class="active"><a href="#"></a>About</li>
-                <li><a href="#"></a>Link</li>
-                <li><a href="#"></a>Link</li>
-                <li><a href="#"></a>Link</li>
-              </ul>
-              <p class="copyright">Copyright</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <div class="container">
+        <p class="copy-right">Copy right 2024 FPOLY</p>
+      </div>
     </footer>
+    <script>
+      const context = document.getElementById("canvas").getContext("2d");
+
+      context.ellipse(200, 50, 90, 30, 0, 0, 2 * Math.PI);
+      context.fillStyle = "#e59999";
+      context.fill();
+
+      context.font = "30px Arial";
+      context.fillStyle = "black";
+      context.textAlign = "center";
+      context.fillText("water", 170, 55);
+
+      context.font = "24px Arial";
+      context.fillStyle = "white";
+      context.fillText("love", 240, 55);
+    </script>
   </body>
 </html>
