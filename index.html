@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thi thu HTML5 - CSS3</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <nav>
+              <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Lien He</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div class="col">
+            <form>
+              <input class="input-search" required type="text" />
+              <button class="btn-search" type="submit">Tim kiem</button>
+            </form>
+          </div>
+        </div>
+        <div class="logo">
+          <canvas id="canvas" width="200" height="100"></canvas>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="banner">
+        <div class="container">
+          <div class="banner-hero"></div>
+        </div>
+      </section>
+      <section class="content">
+        <div class="container">
+          <div class="row">
+            <h2 class="content-title">Uu dai danh cho cac ban</h2>
+          </div>
+          <div class="row">
+            <div class="product-col">
+              <img src="/image/anh_1.png" alt="" class="product-image" />
+              <a href="#">
+                <p class="product-name">Tra Xanh</p>
+              </a>
+              <div class="price-row">
+                <span class="price-sell">25.000d</span>
+                <span class="price-origin">35.000d</span>
+              </div>
+            </div>
+            <div class="product-col">
+              <img src="/image/anh_3.png" alt="" class="product-image" />
+              <a href="#">
+                <p class="product-name">Tra Xanh</p>
+              </a>
+              <div class="price-row">
+                <span class="price-sell">25.000d</span>
+                <span class="price-origin">35.000d</span>
+              </div>
+            </div>
+            <div class="product-col">
+              <img src="/image/anh_3.png" alt="" class="product-image" />
+              <a href="#">
+                <p class="product-name">Tra Xanh</p>
+              </a>
+              <div class="price-row">
+                <span class="price-sell">25.000d</span>
+                <span class="price-origin">35.000d</span>
+              </div>
+            </div>
+            <div class="product-col">
+              <img src="/image/anh_4.png" alt="" class="product-image" />
+              <a href="#">
+                <p class="product-name">Tra Xanh</p>
+              </a>
+              <div class="price-row">
+                <span class="price-sell">25.000d</span>
+                <span class="price-origin">35.000d</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <p>Copy right 2024 FPOLY</p>
+      </div>
+    </footer>
+
+    <script>
+      const context = document.getElementById("canvas").getContext("2d");
+      context.ellipse(100, 50, 90, 30, 0, 0, 2 * Math.PI);
+      context.fillStyle = "#e59999";
+      context.fill();
+      context.font = "30px Arial";
+      context.fillStyle = "black";
+      context.textAlign = "center";
+      context.fillText("Water", 75, 55);
+      context.font = "24px Arial";
+      context.fillStyle = "white";
+      context.fillText("love", 150, 55);
+    </script>
+  </body>
+</html>
